@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_login_bg"
+    android:onClick="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="校园新鲜事"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/mobilePhone"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/register_input_corner_white"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:gravity="center_vertical"
+            android:hint="手机号/账号"
+            android:inputType="phone"
+            android:text="13922044512"
+            android:maxLength="11"
+            android:paddingLeft="18dp"
+            android:textColorHint="#C9C9C9"
+            android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/register_input_corner_white"
+                android:digits="0123456789abcdefghigklmnopqrstuvwxyz"
+                android:gravity="center_vertical"
+                android:hint="密码"
+                android:text="123456"
+                android:inputType="textPassword"
+                android:maxLength="11"
+                android:paddingLeft="18dp"
+                android:textColorHint="#C9C9C9"
+                android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/login_btn_corner_bule"
+            android:gravity="center"
+            android:onClick="true"
+            android:text="登录"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <!--用户注册-->
+            <TextView
+                android:id="@+id/userRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="用户注册"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="0.5dip"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:background="#FFFFFF" />
+
+            <!--社团注册-->
+            <TextView
+                android:id="@+id/clubRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="社团注册"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="0.5dip"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/findPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="找回密码"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

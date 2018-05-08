@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/nav_bottom"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="58dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0EFF5"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/mainPage_ll"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/mainPage_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="首页"
+                android:textSize="15sp"
+                android:textColor="#63BEFB"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/follow_ll"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/follow_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关注的人"
+                android:textSize="15sp"
+                android:textColor="#B5B5B5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/me_ll"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/me_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我"
+                android:textSize="15sp"
+                android:textColor="#B5B5B5"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

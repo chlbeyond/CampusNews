@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/personal_profile_head_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/personal_profile_head_bg"
+    android:orientation="vertical"
+    android:paddingTop="83dp">
+
+    <ImageView
+        android:id="@+id/personal_icon"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="18dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/personal_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="14dp"
+        android:text="设计者"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/personal_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=""
+        android:hint="写点什么吧..."
+        android:textColorHint="#C1DBF4"
+        android:textColor="#C1DBF4"
+        android:textSize="14sp" />
+</LinearLayout>

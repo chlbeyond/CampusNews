@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--导航条颜色-->
+    <color name="nav">#40C1FC</color>
+    <color name="viewPager_underline">#63BEFB</color>
+    <color name="black">#000</color>
+    <color name="alpha">#0000</color>
+    <color name="white">#FFFF</color>
+    <color name="viewPager_title">#434343</color>
+    <color name="viewPager_title_selected">#59BAFB</color>
+    <color name="blue">#33b5e5</color>
+</resources>
